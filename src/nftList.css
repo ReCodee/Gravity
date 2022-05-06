@@ -1,3 +1,38 @@
-.nftlist{
-    background-color: blue;
+.explore_page_heading{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-family: cursive;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    width:100% ;
 }
+.allNFTs{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 50px;
+    max-width: 100%;
+    padding-left: 100px;
+}
+
+
+.header__search{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-family: cursive;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    width:100% ;
+}
+

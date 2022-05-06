@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
 import NFTList from './nftList';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import nftCard from './NFTCard.js';
 function App() {
   return (<Router>
     {/* <div className="App">
